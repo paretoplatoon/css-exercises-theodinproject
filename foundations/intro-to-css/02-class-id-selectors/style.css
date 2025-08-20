@@ -1,0 +1,20 @@
+/* style.css */
+
+p {
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    background-color: rgb(232, 138, 138);
+}
+
+div#number-2 {
+    color: rgb(43, 122, 219);
+    font-size: 36px;
+}
+
+.mid-font {
+    font-size: 24px;
+}
+
+div#number-4 {
+    background-color: rgb(129, 216, 129);
+    font-weight: bold;
+}
