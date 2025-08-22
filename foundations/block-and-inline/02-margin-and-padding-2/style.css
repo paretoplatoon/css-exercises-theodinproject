@@ -1,27 +1,67 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
 }
 
+.pad-sm {
+  padding: 0.5rem;
+}
+
+.pad-md {
+  padding: 1rem;
+}
+
+.pad-lg {
+  padding: 2rem;
+}
+
+.marg-sm {
+  margin: 0.5rem;
+}
+
+.marg-md {
+  margin: 1rem;
+}
+
+.marg-lg {
+  margin: 2rem;
+}
+
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
 }
 
 .title {
-  background: #e3f4ff;
+  background-color: #e3f4ff;
+  padding: 0.5rem;
+  font-size: 1rem;
 }
 
 .content {
-  background: #e3f4ff;
+  background-color: #e3f4ff;
+  margin-bottom: 0.5rem;
 }
 
 .button-container {
-  background: #e3f4ff;
+  background-color: #e3f4ff;
+  display: block;
+  text-align: center;
 }
 
 button {
-  background: white;
-  border: 1px solid #eee;
+  display: block;
+  background-color: white;
+  border-color: #e3f4ff;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 auto;
 }
