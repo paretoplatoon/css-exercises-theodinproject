@@ -2,6 +2,18 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.u-flex-vert {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-wrap {
+  max-width: 1440px;
+  margin: 1rem 1rem 0 1rem;
+  padding: 0 20px 0 20px;
+  display: none;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -10,6 +22,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 20px 0 32px 0;
+}
+
+.item-block {
+  display: flex;
+  gap: 52px;
+  align-content: center;
+  justify-content: center;
+}
+
+.item-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
